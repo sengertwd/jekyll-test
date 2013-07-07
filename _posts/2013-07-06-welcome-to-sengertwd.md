@@ -7,11 +7,22 @@ categories: introduction
 
 SengertWD is a small blog about web design and coding. There will be tutorials about HTML, CSS, JavaScript, and a bunch of other topics.
 
-Jekyll also offers powerful support for code snippets:
+Code will appear in a field like the following:
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [My Git][jekyll-gh].
+{% highlight javascript %}
+$("document").ready(function(){
+	$("body").remove();
+});
+{% endhighlight %}
+
+HTML Example: 
+
+{% highlight html %}
+<div>
+	<span>This is some content.</span>
+</div>
+{% endhighlight %}
 
 * [My Github] (https://github.com/sengertwd)
 
-[SengertWD-Github]: 
 [jekyll]:    http://jekyllrb.com
