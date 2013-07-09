@@ -1,27 +1,41 @@
+/*
+ * Web Fonts from fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and 
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2012 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Yellow Design Studio
+ * License URL: http://www.fontspring.com/fflicense/yellow-design-studio
+ *
+ *
+ */
+@font-face {
+  font-family: 'Thirsty Script';
+  src: url("/css/fonts/ThirstyScriptRegular-webfont.eot");
+  src: url("/css/fonts/ThirstyScriptRegular-webfont.eot?#iefix") format("embedded-opentype"), url("/css/fonts/ThirstyScriptRegular-webfont.woff") format("woff"), url("/css/fonts/ThirstyScriptRegular-webfont.ttf") format("truetype"), url("/css/fonts/ThirstyScriptRegular-webfont.svg#thirsty_script_regularregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*****************************************************************************/
 /*
 /* Common
 /*
 /*****************************************************************************/
 /* Global Reset */
-* {
-  margin: 0;
-  padding: 0; }
-
 html, body {
   height: 100%; }
-
-body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center; }
-
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
-
-h1 {
-  margin-bottom: 1em; }
 
 p {
   margin: 1em 0; }
@@ -61,59 +75,6 @@ ul.posts span {
 /* Site
 /*
 /*****************************************************************************/
-.site {
-  font-size: 115%;
-  text-align: justify;
-  width: 42em;
-  margin: 3em auto 2em;
-  line-height: 1.5em; }
-
-.site .header a {
-  font-weight: bold;
-  text-decoration: none; }
-
-.site .header h1.title {
-  display: inline-block;
-  margin-bottom: 2em; }
-
-.site .header h1.title a {
-  color: #a00; }
-
-.site .header h1.title a:hover {
-  color: #000; }
-
-.site .header a.extra {
-  color: #aaa;
-  margin-left: 1em; }
-
-.site .header a.extra:hover {
-  color: #000; }
-
-.site .meta {
-  color: #aaa; }
-
-.site .footer {
-  font-size: 80%;
-  color: #666;
-  border-top: 4px solid #eee;
-  margin-top: 2em;
-  overflow: hidden; }
-
-.site .footer .contact {
-  float: left;
-  margin-right: 3em; }
-
-.site .footer .contact a {
-  color: #8085C1; }
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right; }
-
-.site .footer .rss img {
-  border: 0; }
-
 /*****************************************************************************/
 /*
 /* Posts
@@ -131,19 +92,12 @@ ul.posts span {
 .post code {
   border: 1px solid #ddd;
   background-color: #eef;
-  padding: 0 .2em; }
+  padding: 0 .2em;
+  tab-size: 3;
+  word-wrap: normal; }
 
 .post pre code {
   border: none; }
-
-/* terminal */
-.post pre.terminal {
-  border: 1px solid #000;
-  background-color: #333;
-  color: #FFF; }
-
-.post pre.terminal code {
-  background-color: #333; }
 
 .highlight {
   background: #ffffff; }
@@ -399,5 +353,41 @@ ul.posts span {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 body {
   background: #77b3ff; }
+
+header {
+  background: #6bffd9;
+  height: 60px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%; }
+  header h1.title {
+    font-family: 'Thirsty Script', cursive;
+    font-weight: normal; }
+    header h1.title a {
+      color: white;
+      text-decoration: none; }
+
+nav {
+  background: #97ff6b;
+  margin: 10px 0;
+  padding: 10px 15px;
+  width: 100%; }
+
+section, article {
+  background: white;
+  width: 100%; }
+
+section {
+  padding: 20px 15px; }
+
+footer {
+  background: #6bffd9; }

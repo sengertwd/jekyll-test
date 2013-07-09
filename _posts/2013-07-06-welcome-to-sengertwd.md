@@ -9,9 +9,8 @@ SengertWD is a small blog about web design and coding. There will be tutorials a
 
 Code will appear in a field like the following:
 
-{% highlight javascript %}
-$("document").ready(function(){
-	$("body").remove();
+{% highlight javascript %}$("document").ready(function(){
+  $("body").remove();
 });
 {% endhighlight %}
 
@@ -19,7 +18,7 @@ HTML Example:
 
 {% highlight html %}
 <div>
-	<span>This is some content.</span>
+  <span>This is some content.</span>
 </div>
 {% endhighlight %}
 

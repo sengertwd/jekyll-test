@@ -1,7 +1,54 @@
+@import 'font/font';
 @import 'includes/colors';
 @import 'includes/main';
 @import 'includes/syntax';
 
+* {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body{
   background: $sitebackground;
+}
+
+header{
+  background: $siteheader;
+  height: 60px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+
+  h1.title {
+    font-family: 'Thirsty Script', cursive;
+    font-weight: normal;
+
+    a{
+      color: $white;
+      text-decoration: none;
+    }
+  }
+}
+
+nav {
+  background: $sitenav;
+  margin: 10px 0;
+  padding: 10px 15px;
+  width: 100%;
+}
+
+section, article {
+  background: $post;
+  width: 100%;
+}
+
+section {
+  padding: 20px 15px;
+}
+
+footer {
+  background: $siteheader;
 }
