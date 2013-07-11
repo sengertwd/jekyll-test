@@ -28,12 +28,73 @@
   font-weight: normal;
   font-style: normal; }
 
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-/* Global Reset */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Code Pro"), local("SourceCodePro-Regular"), url(http://themes.googleusercontent.com/static/fonts/sourcecodepro/v3/mrl8jkM18OlOQN8JLgasDxM0YzuT7MdOe03otPbuUS0.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Source Code Pro Bold"), local("SourceCodePro-Bold"), url(http://themes.googleusercontent.com/static/fonts/sourcecodepro/v3/leqv3v-yTsJNC7nFznSMqVkQc6VGVFSmCnC_l7QZG60.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 300;
+  src: local("Source Sans Pro Light"), local("SourceSansPro-Light"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGNbE_oMaV8t2eFeISPpzbdE.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Source Sans Pro"), local("SourceSansPro-Regular"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/ODelI1aHBYDBqgeIAH2zlBM0YzuT7MdOe03otPbuUS0.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold"), local("SourceSansPro-Semibold"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGJ6-ys_j0H4QL65VLqzI3wI.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/toadOcfmlt9b38dHJxOBGFkQc6VGVFSmCnC_l7QZG60.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 300;
+  src: local("Source Sans Pro Light Italic"), local("SourceSansPro-LightIt"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/fpTVHK8qsXbIeTHTrnQH6GGomRtBD2u8FwSY4jjlmeA.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local("Source Sans Pro Italic"), local("SourceSansPro-It"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/M2Jd71oPJhLKp0zdtTvoMzNrcjQuD0pTu1za2FULaMs.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 600;
+  src: local("Source Sans Pro Semibold Italic"), local("SourceSansPro-SemiboldIt"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/fpTVHK8qsXbIeTHTrnQH6PULlOK_XQENnt2ryrY843E.woff) format("woff"); }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 700;
+  src: local("Source Sans Pro Bold Italic"), local("SourceSansPro-BoldIt"), url(http://themes.googleusercontent.com/static/fonts/sourcesanspro/v5/fpTVHK8qsXbIeTHTrnQH6Nog-We9VNve39Jr4Vs_aDc.woff) format("woff"); }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
 html, body {
   height: 100%; }
 
@@ -53,11 +114,49 @@ table {
   font-size: inherit;
   font: 100%; }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
+body {
+  background: #77b3ff;
+  font-family: "Source Sans Pro", sans-serif; }
+
+header {
+  background: #6bffd9;
+  height: 60px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%; }
+  header h1.title {
+    font-family: 'Thirsty Script', cursive;
+    font-weight: normal; }
+    header h1.title a {
+      color: white;
+      text-decoration: none; }
+
+nav {
+  background: #97ff6b;
+  margin: 10px 0;
+  padding: 10px 15px;
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    nav {
+      margin: 10px 1%;
+      width: 98%; } }
+
+section, article {
+  background: white;
+  width: 100%; }
+
+section {
+  padding: 20px 15px; }
+  @media screen and (min-width: 768px) {
+    section {
+      margin: 0 1%;
+      width: 98%; } }
+
+footer {
+  background: #6bffd9;
+  margin: 10px 0 0 0;
+  padding: 20px 15px; }
+
 ul.posts {
   list-style-type: none;
   margin-bottom: 2em; }
@@ -67,37 +166,7 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
   font-size: 80%; }
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em; }
-
-.post ul, .post ol {
-  margin-left: 1.35em; }
-
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-  tab-size: 3;
-  word-wrap: normal; }
-
-.post pre code {
-  border: none; }
 
 .highlight {
   background: #ffffff; }
@@ -353,41 +422,30 @@ ul.posts span {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0; }
+.post pre {
+  font-family: "Source Code Pro", monospace;
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em; }
 
-body {
-  background: #77b3ff; }
+.post ul, .post ol {
+  margin-left: 1.35em; }
 
-header {
-  background: #6bffd9;
-  height: 60px;
-  padding: 10px 0;
-  text-align: center;
-  width: 100%; }
-  header h1.title {
-    font-family: 'Thirsty Script', cursive;
-    font-weight: normal; }
-    header h1.title a {
-      color: white;
-      text-decoration: none; }
+.post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+  tab-size: 3;
+  word-wrap: normal; }
 
-nav {
-  background: #97ff6b;
-  margin: 10px 0;
-  padding: 10px 15px;
-  width: 100%; }
+.post pre code {
+  border: none; }
 
-section, article {
-  background: white;
-  width: 100%; }
+/* terminal */
+.post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF; }
 
-section {
-  padding: 20px 15px; }
-
-footer {
-  background: #6bffd9; }
+.post pre.terminal code {
+  background-color: #333; }

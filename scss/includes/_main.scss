@@ -1,10 +1,10 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
+* {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
 
 html, body { height: 100%; }
 
@@ -19,126 +19,57 @@ table {
   font: 100%;
 }
 
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
+body{
+  background: $sitebackground;
+  font-family: $mainfontstack;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+header{
+  background: $siteheader;
+  height: 60px;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+
+  h1.title {
+    font-family: 'Thirsty Script', cursive;
+    font-weight: normal;
+
+    a{
+      color: $white;
+      text-decoration: none;
+    }
+  }
 }
 
-ul.posts span {
-  color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
-  font-size: 80%;
+nav {
+  background: $sitenav;
+  margin: 10px 0;
+  padding: 10px 15px;
+  width: 100%;
+
+  @media screen and (min-width: $break-tablet) {
+      margin: 10px 1%;
+      width: 98%;
+    }  
 }
 
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-// .site {
-//   font-size: 115%;
-//   text-align: justify;
-//   width: 42em;
-//   margin: 3em auto 2em;
-//   line-height: 1.5em;
-// }
-
-// .site header a {
-//   font-weight: bold;
-//   text-decoration: none;
-// }
-
-// .site header h1.title {
-//   display: inline-block;
-//   margin-bottom: 2em;
-// }
-
-// .site header a.extra {
-//   color: #aaa;
-//   margin-left: 1em;
-// }
-
-// .site header a.extra:hover {
-//   color: #000;
-// }
-
-// .site .meta {
-//   color: #aaa;
-// }
-
-// .site .footer {
-//   font-size: 80%;
-//   color: #666;
-//   border-top: 4px solid #eee;
-//   margin-top: 2em;
-//   overflow: hidden;
-// }
-
-// .site .footer .contact {
-//   float: left;
-//   margin-right: 3em;
-// }
-
-// .site .footer .contact a {
-//   color: #8085C1;
-// }
-
-// .site .footer .rss {
-//   margin-top: 1.1em;
-//   margin-right: -.2em;
-//   float: right;
-// }
-
-// .site .footer .rss img {
-//   border: 0;
-// }
-
-/*****************************************************************************/
-/*
-/* Posts
-/*
-/*****************************************************************************/
-
-/* standard */
-.post pre {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .4em;
+section, article {
+  background: $post;
+  width: 100%;
 }
 
-.post ul, .post ol {
-  margin-left: 1.35em;
+section {
+  padding: 20px 15px;
+
+  @media screen and (min-width: $break-tablet) {
+    margin:0 1%;
+    width: 98%;
+  }
 }
 
-.post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
-  padding: 0 .2em;
-  tab-size: 3;
-  word-wrap: normal;
+footer {
+  background: $siteheader;
+  margin: 10px 0 0 0;
+  padding: 20px 15px;
 }
-
-.post pre code {
-  border: none;
-}
-
-// /* terminal */
-// .post pre.terminal {
-//   border: 1px solid #000;
-//   background-color: #333;
-//   color: #FFF;
-// }
-
-// .post pre.terminal code {
-//   background-color: #333;
-// }

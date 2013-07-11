@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Welcome to SengertWD!"
+title:  "Welcome to Sengert WD!"
 date:   2013-07-06 13:41:45
 categories: introduction
 ---
 
-SengertWD is a small blog about web design and coding. There will be tutorials about HTML, CSS, JavaScript, and a bunch of other topics.
+Sengert WD is a small blog about web design and coding. There will be tutorials about HTML, CSS, JavaScript, and a bunch of other topics.
 
 Code will appear in a field like the following:
 
@@ -23,5 +23,3 @@ HTML Example:
 {% endhighlight %}
 
 * [My Github] (https://github.com/sengertwd)
-
-[jekyll]:    http://jekyllrb.com
