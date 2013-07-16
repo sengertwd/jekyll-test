@@ -118,6 +118,10 @@ body {
   background: #77b3ff;
   font-family: "Source Sans Pro", sans-serif; }
 
+div.site {
+  min-height: 100%;
+  position: relative; }
+
 header {
   background: #6bffd9;
   height: 60px;
@@ -140,6 +144,12 @@ nav {
     nav {
       margin: 10px 1%;
       width: 98%; } }
+  @media screen and (min-width: 1200px) {
+    nav {
+      float: right;
+      margin: 1% 0 1% 0;
+      min-width: 200px;
+      width: 20%; } }
 
 section, article {
   background: white;
@@ -151,11 +161,21 @@ section {
     section {
       margin: 0 1%;
       width: 98%; } }
+  @media screen and (min-width: 1200px) {
+    section {
+      float: left;
+      margin: 1% 0 1% 1%;
+      width: 78%; } }
 
 footer {
+  bottom: 0;
   background: #6bffd9;
   margin: 10px 0 0 0;
-  padding: 20px 15px; }
+  padding: 20px 15px;
+  position: relative; }
+  @media screen and (min-width: 1200px) {
+    footer {
+      clear: both; } }
 
 ul.posts {
   list-style-type: none;

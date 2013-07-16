@@ -24,6 +24,11 @@ body{
   font-family: $mainfontstack;
 }
 
+div.site{
+  min-height: 100%;
+  position: relative;
+}
+
 header{
   background: $siteheader;
   height: 60px;
@@ -51,7 +56,14 @@ nav {
   @media screen and (min-width: $break-tablet) {
       margin: 10px 1%;
       width: 98%;
-    }  
+    }
+
+  @media screen and (min-width: $break-desktop) {
+    float: right;
+    margin: 1% 0 1% 0;
+    min-width: 200px;
+    width: 20%
+  }
 }
 
 section, article {
@@ -66,10 +78,22 @@ section {
     margin:0 1%;
     width: 98%;
   }
+
+  @media screen and (min-width: $break-desktop) {
+    float: left;
+    margin: 1% 0 1% 1%;
+    width: 78%;
+  }
 }
 
 footer {
+  bottom: 0;
   background: $siteheader;
   margin: 10px 0 0 0;
   padding: 20px 15px;
+  position: relative;
+
+  @media screen and (min-width: $break-desktop) {
+    clear: both;
+  }
 }
