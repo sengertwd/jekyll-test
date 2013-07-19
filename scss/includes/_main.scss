@@ -73,6 +73,7 @@ section, article {
 }
 
 section {
+  min-height:70%;
   padding: 20px 15px;
 
   @media screen and (min-width: $break-tablet) {
