@@ -51,7 +51,7 @@ header{
 nav {
   background: $sitenav;
   margin: 10px 0;
-  padding: 10px 15px;
+  padding: 1% 1.5%;
   width: 100%;
 
   @media screen and (min-width: $break-tablet) {
@@ -62,8 +62,27 @@ nav {
   @media screen and (min-width: $break-desktop) {
     float: right;
     margin: 1% 0 1% 0;
+    padding: 1% 0% 1% 1.5%;
     min-width: 200px;
-    width: 20%
+    width: 20%;
+
+    a{
+      border-radius: 10px 0 0 10px;
+      clear: both;
+      display: block;
+      float: right;
+      height: 2rem;
+      padding-left: 1rem;
+      line-height: 2rem;
+      transition: all 1s;
+      width: 50%;
+
+      &:hover{
+        background: rgba(0,0,0,.4);
+        width: 100%;
+        // -webkit-transform: rotateX(50deg);
+      }
+    }
   }
 }
 
@@ -82,6 +101,8 @@ section {
   }
 
   @media screen and (min-width: $break-desktop) {
+    // border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.5);
     float: left;
     margin: 1% 0 1% 1%;
     width: 78%;
@@ -97,5 +118,7 @@ footer {
 
   @media screen and (min-width: $break-desktop) {
     clear: both;
+    padding-left: 2%; 
+    padding-right: 2%;
   }
 }
