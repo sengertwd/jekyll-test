@@ -51,8 +51,23 @@ header{
 nav {
   background: $sitenav;
   margin: 10px 0;
-  padding: 1% 1.5%;
+  padding: 3% 5%;
   width: 100%;
+
+  a {
+    color: #000000;
+    padding: 1% 2%;
+    text-decoration: none;
+
+    @media screen and (max-width: $break-tablet - 1px) {
+      background: rgba(255,255,255,.5);
+      display: inline-block;
+    }
+
+    &:visited {
+      color: #000000;
+    }
+  }
 
   @media screen and (min-width: $break-tablet) {
       margin: 10px 1%;
@@ -66,7 +81,7 @@ nav {
     min-width: 200px;
     width: 20%;
 
-    a{
+    a {
       border-radius: 10px 0 0 10px;
       clear: both;
       display: block;
@@ -93,7 +108,7 @@ section, article {
 
 section {
   min-height:70%;
-  padding: 20px 15px;
+  padding: 3% 5%;
 
   @media screen and (min-width: $break-tablet) {
     margin:0 1%;

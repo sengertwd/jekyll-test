@@ -139,8 +139,18 @@ header {
 nav {
   background: #97ff6b;
   margin: 10px 0;
-  padding: 1% 1.5%;
+  padding: 3% 5%;
   width: 100%; }
+  nav a {
+    color: #000000;
+    padding: 1% 2%;
+    text-decoration: none; }
+    @media screen and (max-width: 767px) {
+      nav a {
+        background: rgba(255, 255, 255, 0.5);
+        display: inline-block; } }
+    nav a:visited {
+      color: #000000; }
   @media screen and (min-width: 768px) {
     nav {
       margin: 10px 1%;
@@ -172,7 +182,7 @@ section, article {
 
 section {
   min-height: 70%;
-  padding: 20px 15px; }
+  padding: 3% 5%; }
   @media screen and (min-width: 768px) {
     section {
       margin: 0 1%;
