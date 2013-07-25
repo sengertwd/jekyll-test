@@ -6,7 +6,7 @@ categories: introduction
 ---
 ## About Me
 ### Where I'm from
-I am San Diego, CA native. One year after I was born we moved to Chicago, IL. Where I lived for nearly 10 years. After those ten years, my family and  moved back to sunny San Diego, where we have lived since. 
+I am San Diego, CA native. One year after I was born we moved to Chicago, IL, where I lived for nearly 10 years. After those ten years, my family and I moved back to sunny San Diego, where we have lived since. 
 
 ### How did I get into Web Development, Design, and Other Computer Stuff?
 Well it began after my family moved to San Diego and I met my best friend of nearly 10 years who was always into computers and all that fun stuff. His interest sparked mine to learn a little bit into computers and all that fun stuff. It originally started with wanting to learn how to build my own video game. At the time being no older than 14, I picked up [Blender 3D](http://www.blender.org/) which was the only thing that I could learn at the time.
