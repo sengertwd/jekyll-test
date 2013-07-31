@@ -6,16 +6,16 @@ categories: introduction
 ---
 ## About Me
 ### Where I'm from
-I am San Diego, CA native. One year after I was born we moved to Chicago, IL, where I lived for nearly 10 years. After those ten years, my family and I moved back to sunny San Diego, where we have lived since. 
+I am San Diego, CA native. One year after I was born my family moved to Chicago, IL, where we lived for nearly 10 years. After those ten years, my family moved back to sunny San Diego, where we have lived since. 
 
 ### How did I get into Web Development, Design, and Other Computer Stuff?
-Well it began after my family moved to San Diego and I met my best friend of nearly 10 years who was always into computers and all that fun stuff. His interest sparked mine to learn a little bit into computers and all that fun stuff. It originally started with wanting to learn how to build my own video game. At the time being no older than 14, I picked up [Blender 3D](http://www.blender.org/) which was the only thing that I could learn at the time.
+Well it began after my family moved to San Diego and I met my best friend of nearly 10 years who was always into computers. His interest sparked mine to learn a little bit into computers and some different technologies. It originally started with wanting to learn how to build my own video game. At the time being no older than 14, I picked up [Blender 3D](http://www.blender.org/) which was the only thing that I could learn at the time.
 
 After learning a little bit in the old Blender interface I gave up on that and began to pursue my own goals with computers. I eventually found myself looking at websites and sitting on Facebook (which is where I spent a lot of my time at the age of 17) thinking to myself, "It cannot be that hard to learn how to do this stuff" which sparked my imagination. I soon after began learning how to make an **easy** website that was just plain HTML with no styling or any formatting. 
 
 After learning how to do that I eventually moved on to making a table layout Web Page, in 2010. Yeah, I know, way out of date. From there I quit using HTML and CSS and went back to using Facebook, YouTube, and working on tiny little 3D projects using Blender yet again. 
 
-After graduating high school, I immediately went straight to the local community college. My major going into college was Business, which I soon decided after the first semester, that business was not for me and I would have to switch my major. After my first semester, I took mainly general education Classes. But the following fall I began my journey as a student in the web world. The reason that made me switch to the Web Design major is that I had recently started making websites again and was pleasantly surprised by all that I was learning, partly due to my best friend who was creating a website for someone else. 
+After graduating high school, I immediately went straight to the local community college. My major going into college was Business, which I soon decided after the first semester, that business was not for me and I would have to switch my major. After my first semester, I took mainly general education classes. But the following fall I began my journey as a student in the web world. The reason that made me switch to the Web Design major is that I had recently started making websites again and was pleasantly surprised by all that I was learning, partly due to my best friend who was creating a website for someone else. 
 
  I became facinated with front end web development and design, though at that point I was never good at design. I had just started using div's and other elements that were not table layouts. As I was learning this, My best friend kept telling me about these **awesome** new css properties that allowed me to make rounded corners on an element or have a gradient as the background of an element. This is what completely sold me into working with the Web. 
 
@@ -34,8 +34,7 @@ Most of the skills that I have include
 *	AJAX
 *	PHP
 *	Coldfusion
-
-####CMS/Blog
-
-*	Jekyll
-*	Wordpress
+* mySQL
+* Blogging:
+  *	Jekyll
+  *	Wordpress
