@@ -179,6 +179,8 @@ nav {
 section, article {
   background: white;
   width: 100%; }
+  section p, article p {
+    text-indent: 2em; }
 
 section {
   min-height: 70%;

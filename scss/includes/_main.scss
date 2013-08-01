@@ -104,6 +104,10 @@ nav {
 section, article {
   background: $post;
   width: 100%;
+
+  p{
+    text-indent: 2em;
+  }
 }
 
 section {
