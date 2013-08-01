@@ -9,7 +9,7 @@ categories: introduction
 I am San Diego, CA native. One year after I was born my family moved to Chicago, IL, where we lived for nearly 10 years. After those ten years, my family moved back to sunny San Diego, where we have lived since. 
 
 ### How did I get into Web Development, Design, and Other Computer Stuff?
-Well it began after my family moved to San Diego and I met my best friend of nearly 10 years who was always into computers. His interest sparked mine to learn a little bit into computers and some different technologies. It originally started with wanting to learn how to build my own video game. At the time being no older than 14, I picked up [Blender 3D](http://www.blender.org/) which was the only thing that I could learn at the time.
+Well it began after my family moved to San Diego and I met my best friend of nearly 10 years who was always into computers. His interest sparked mine to learn a little bit into computers and all the cool things that computer could do. It originally started with wanting to learn how to build my own video game. At the time being no older than 14, I picked up [Blender 3D](http://www.blender.org/) which was the only thing that I could learn at the time.
 
 After learning a little bit in the old Blender interface I gave up on that and began to pursue my own goals with computers. I eventually found myself looking at websites and sitting on Facebook (which is where I spent a lot of my time at the age of 17) thinking to myself, "It cannot be that hard to learn how to do this stuff" which sparked my imagination. I soon after began learning how to make an **easy** website that was just plain HTML with no styling or any formatting. 
 
